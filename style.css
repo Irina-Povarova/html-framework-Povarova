@@ -1,0 +1,69 @@
+.row div {
+	height: 300px;
+	color: white; 
+	background: lightblue;
+	border: 2px solid blue;
+}
+.col-lg-1 div {
+	height: 200px;
+	color: white; 
+	background: blue;
+	border: 2px solid white;
+}
+
+.my-flex-container {
+	display: flex;
+	margin-top: 20px;
+	margin-left: 20px;
+	align-items: center;
+	}
+.child{
+	height: 100px;
+    width: 150px;
+	padding: 25px;
+	color: white;
+}
+.child.red {
+  background-color: red;
+}
+.child.yellow {
+  background-color: yellow;
+}
+.child.blue {
+  background-color: blue;
+}
+.my-flex-container-row {
+	display: flex;
+	flex-direction: flex-row;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.my-flex-container-column {
+	display: flex;
+	display: inline-block;
+	flex-direction: flex-сolumn;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.my-flex-container-space {
+	display: flex;
+	justify-content:space-between; 
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.my-flex-container-start {
+	display: flex;
+	justify-content:flex-start; 
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.my-flex-container-end {
+	display: flex;
+	justify-content:flex-end; 
+	margin-top: 20px;
+}
+.my-flex-container-center {
+	display: flex;
+	justify-content:center; 
+	margin-top: 20px;
+}
