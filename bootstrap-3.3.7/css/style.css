@@ -1,1 +1,107 @@
+﻿/* class for container greed column*/
 
+.row div {
+	height: 300px;
+	color: white; 
+	background: lightblue;
+	border: 2px solid blue;
+}
+
+/*class for inserted column in column 2 and column 10 */
+.col-lg-1 div {
+	height: 200px;
+	color: white; 
+	background: blue;
+	border: 2px solid white;
+}
+
+/*class for parent ordinary flex container displayed in row as default layout*/
+.my-flex-container {
+	display: flex;
+	margin-top: 20px;
+	margin-left: 20px;
+	align-items: center;
+	}
+
+/*class for child blocks to difine size and content of rectangles*/
+.child{
+	height: 100px;
+    	width: 150px;
+	padding: 25px;
+	color: white;
+}
+
+/*class for red color*/
+.child.red {
+  background-color: red;
+}
+
+/*class for green color*/
+.child.yellow {
+  background-color: green;
+}
+
+/*class for blue color*/
+.child.blue {
+  background-color: blue;
+}
+
+/*class for parent flex container displayed in row the same as default layout*/
+.my-flex-container-row {
+	display: flex;
+	flex-direction: flex-row;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+/*class for parent flex container displayed in columns*/
+.my-flex-container-column {
+	display: flex;
+	display: inline-block;
+	flex-direction: flex-сolumn;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+/*class for parent flex container where elements are spread within one row with equal spaces*/
+.my-flex-container-space {
+	display: flex;
+	justify-content:space-between; 
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+
+/*class for parent flex container aligned to the left side of the page*/
+.my-flex-container-start {
+	display: flex;
+	justify-content:flex-start; 
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+/*class for parent flex container aligned to the right side of the page*/
+.my-flex-container-end {
+	display: flex;
+	justify-content:flex-end; 
+	margin-top: 20px;
+}
+
+/*class for parent flex container center-aligned*/
+.my-flex-container-center {
+	display: flex;
+	justify-content:center; 
+	margin-top: 20px;
+}
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
